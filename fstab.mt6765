@@ -6,7 +6,7 @@
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765" 2
 # 142 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
-/dev/block/platform/bootdevice/by-name/system /system ext4 ro wait,,avb=vbmeta,first_stage_mount
+/dev/block/platform/bootdevice/by-name/system / ext4 ro wait,,avb=vbmeta,first_stage_mount
 
 /dev/block/platform/bootdevice/by-name/vendor /vendor ext4 ro wait,,avb,first_stage_mount
 
